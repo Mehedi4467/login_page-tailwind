@@ -5,6 +5,16 @@
 }
 
 /* input box css  */
+.mial-input{
+    position: relative;
+}
+#mail-icon{
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    color: #F1F3F4;
+    /* color: #E0B41D; */
+}
 .inputBox{
     position: relative;
 }
