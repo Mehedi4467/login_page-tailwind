@@ -1,6 +1,17 @@
 /* image section css start here  */
 .image-rounded{
     height: 200px;
-
     width: 200px;
+}
+
+/* input box css  */
+.inputBox{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 11px;
+    right: 25px;
+    cursor: pointer;
+    color: rgb(74, 167, 204);
 }
