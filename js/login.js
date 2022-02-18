@@ -84,6 +84,7 @@ document.getElementById('submit-button').addEventListener('click', function(){
     const isValid = passwordAndEmailValidition('email', 'password', 'submit');
     if(isValid == true){
         document.getElementById('status').innerText = "Congratulation Your Are Log In!!";
+        document.getElementById('error').innerText = '';
     }
     else{
         document.getElementById('error').innerText = 'Incorrect Password Or Email!!';
