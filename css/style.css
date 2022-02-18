@@ -20,8 +20,19 @@
 }
 .icon{
     position: absolute;
-    top: 11px;
+    top: 13px;
     right: 25px;
     cursor: pointer;
     color: rgb(74, 167, 204);
+}
+#off-icon{
+    display: none;
+}
+
+
+.submit-button  {
+    background-color: #000000;
+    cursor: not-allowed;
+
+    
 }

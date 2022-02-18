@@ -14,26 +14,27 @@
 </head>
 <body>
 <header>
-    <h1 class="text-4xl font-bold text-center my-8 text-green-500">Welcome to Panda Login</h1>
+    <h1 id="status" class="text-4xl font-bold text-center my-8 text-green-500">Welcome to Panda Login</h1>
 </header>
 <main>
     <section class="relative mt-32">
         <!-- login panda image html start here -->
         <div class="flex justify-center absolute bottom-64 right-0 left-0">
             <div class="rounded-full bg-red-300 flex items-center justify-center image-rounded">
-                <img src="images/login-logo/img1.png" width="400" height="400" alt="">
+                <img id="panda-image" src="images/login-logo/img1.png" width="400" height="400" alt="">
             </div>
             <!-- login panda image html end here  -->
         </div>
           <!-- login form html start here  -->
          
             <div class="flex justify-center">
-               
+              
                 <div class="mt-8 w-2/5 px-8 py-16 bg-sky-400 flex justify-center shadow-lg rounded-lg shadow-current shadow-indigo-500/40 ">
                     <div class="w-9/12 mt-16">
+                        <p id="error" class="text-center py-2 text-yellow-400"></p>
                         <!-- mail input field  -->
                     <div class="mial-input">
-                    <!-- <p id="email-error" class="text-center py-2 text-yellow-400"></p> -->
+                     
                     <input id="email-input" class="block w-full p-2 rounded-full shadow-lg  outline-red-400" type="text" placeholder="Your Email">
                     <i id="mail-icon" class="fa-solid fa-circle-check "></i>
                 </div>
@@ -42,13 +43,13 @@
                     <!-- password field  -->
                     <div class="inputBox">
                     <input id="password-input" class="block w-full mt-4 p-2 rounded-full shadow-lg outline-red-400" type="password" placeholder="Your Password">
-                    <i  class="fa-solid fa-eye icon"></i>
-                    <i class="fa-solid fa-eye-slash icon"></i>
+                    <i id="on-icon" class="fa-solid fa-eye icon"></i>
+                    <i id="off-icon" class="fa-solid fa-eye-slash icon"></i>
                 </div>
                 <!-- password input html end  -->
 
-                
-                    <div class="flex justify-center mt-6"><button class="bg-rose-300 hover:bg-rose-400 shadow-lg text-white font-bold py-2 px-8  rounded-full">Submit</button></div>
+
+                    <div class="flex justify-center mt-6 "><button id="submit-button" class=" bg-rose-300 hover:bg-rose-400 shadow-lg text-white font-bold py-2 px-8  rounded-full " disabled>Submit</button></div>
                     </div>
   
             </div>
